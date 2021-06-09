@@ -31,7 +31,7 @@ Instruction to run within Eclipse:
 Instructions to design GUI:
 - [X] Help > Install new software > Work with: 'All available sites'
 - [X] Look for 'Windowbuilder' > Tick 'WindowBuilder Swing Designer' > Next > Accept/Decline the terms > Finish
-- [ ] Right click on 'DeconvolutionDialog.java' 
+- [ ] Right click on 'DeconvolutionDialog.java' > Open with... > WindowBuilder
 
 
 LICENSING
@@ -47,6 +47,3 @@ SEE ALSO
 --------
 
 * The [ImageJ Tutorials](https://imagej.net/Tutorials) and [Development](https://imagej.net/Development) sections of the ImageJ wiki.
-
-
-![Maven-projects directory map](../images/maven-projects_map.png)
