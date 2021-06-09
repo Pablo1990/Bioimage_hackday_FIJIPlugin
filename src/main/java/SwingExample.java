@@ -6,7 +6,6 @@
  *     https://unlicense.org/
  */
 
-package hackday.main.java;
 
 import javax.swing.WindowConstants;
 

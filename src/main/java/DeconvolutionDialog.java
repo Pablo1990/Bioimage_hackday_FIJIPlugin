@@ -6,8 +6,6 @@
  *     https://unlicense.org/
  */
 
-package hackday.main.java;
-
 import java.awt.BorderLayout;
 
 import java.awt.FlowLayout;

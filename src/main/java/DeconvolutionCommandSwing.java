@@ -6,9 +6,6 @@
  *     https://unlicense.org/
  */
 
-package hackday.main.java;
-
-
 import javax.swing.SwingUtilities;
 
 import net.imglib2.RandomAccessibleInterval;
