@@ -6,6 +6,8 @@
  *     https://unlicense.org/
  */
 
+package hackday.main.java;
+
 import net.imagej.ImgPlus;
 import net.imagej.ops.OpService;
 import net.imglib2.RandomAccessibleInterval;

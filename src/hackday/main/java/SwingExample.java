@@ -6,11 +6,17 @@
  *     https://unlicense.org/
  */
 
+package hackday.main.java;
+
 import javax.swing.WindowConstants;
 
 import net.imagej.ImageJ;
 
-public class SwingExample {
+public final class SwingExample {
+
+	private SwingExample() {
+		// prevent instantiation of utility class
+	}
 
 	public static void main(final String[] args) {
 		final ImageJ ij = new ImageJ();
