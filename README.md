@@ -7,11 +7,12 @@ FIJI PLUG-IN
 ------------
 We picked Eclipse as our IDE. Thus, you would need to install:
 
-- [X] Eclipse for java developers
+- [X] [Eclipse for java developers](https://www.eclipse.org/downloads/)
+- [X] [Java Development Kit (JDK) 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+- [X] Git client (I'd recommend [GitHub Desktop](https://desktop.github.com/))
 
+Instructions: 
 
-- [X] Eclipse for java developers
-- [ ] https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html - jdk 8
 - [ ] Import maven existing project
 - [ ] Maven build
 - [ ] Update ‘Installed JREs’ and ‘search for jdk 8’
