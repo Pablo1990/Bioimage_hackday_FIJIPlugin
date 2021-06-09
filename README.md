@@ -11,21 +11,27 @@ We picked Eclipse as our IDE. Thus, you would need to install:
 - [X] [Java Development Kit (JDK) 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 - [X] Git client (I'd recommend [GitHub Desktop](https://desktop.github.com/))
 
-Instructions: 
+Setup: 
 
-- [ ] Import maven existing project
-- [ ] Maven build
-- [ ] Update ‘Installed JREs’ and ‘search for jdk 8’
-- [ ] Maven build
+- [X] Clone this repository
+- [X] File > Import... > Maven > Existing Maven projects > Browse > Bioimage_hackday_FIJIPlugin directory > Finish
+- [X] Eclipse > Preferences > Java > Installed JREs > Select 'Java SE 8'
+-     If you do not find Java SE 8: Search... > Select directory with Java SE 8
+- [X] Eclipse > Preferences > Java > Compiler > Compiler compliance level: 1.8  
+
+Instructions to build the JAR file: 
+- [X] Run as... > Maven build
 - [ ] Build success 
 
 
-To run:
-Right clink on swing Example and run as java application
+Instruction to run within Eclipse:
+- [X] Run as... > Java application > Select SwingExample.java
+- [ ] See FIJI/ImageJ running
 
-Install:
-- [ ] swing designer
-- [ ] Windowbuilder
+Instructions to design GUI:
+- [X] Help > Install new software > Work with: 'All available sites'
+- [X] Look for 'Windowbuilder' > Tick 'WindowBuilder Swing Designer' > Next > Accept/Decline the terms > Finish
+- [ ] Right click on 'DeconvolutionDialog.java' 
 
 
 LICENSING
