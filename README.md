@@ -1,33 +1,30 @@
-[![](https://travis-ci.org/imagej/tutorials.svg?branch=master)](https://travis-ci.org/imagej/tutorials)
 
-This project contains example code for working with
-[ImageJ](https://imagej.net/ImageJ) and [SciJava](https://imagej.net/SciJava).
+This project was developed through the UCL Bioimage Analysis Collaborative Hackday
+
++info at: https://www.eventbrite.co.uk/e/ucl-bioimage-analysis-collaborative-hackday-tickets-151824323639
+
+FIJI PLUG-IN
+------------
+We picked Eclipse as our IDE. Thus, you would need to install:
+
+- [X] Eclipse for java developers
 
 
-JAVA PROJECTS
--------------
+- [X] Eclipse for java developers
+- [ ] https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html - jdk 8
+- [ ] Import maven existing project
+- [ ] Maven build
+- [ ] Update ‘Installed JREs’ and ‘search for jdk 8’
+- [ ] Maven build
+- [ ] Build success 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/imagej/tutorials)
 
-For the
-[type-safety-inclined](https://softwareengineering.stackexchange.com/a/38257),
-this repository also contains Maven projects written in Java, located in the
-`maven-projects` subfolder of this repository.
+To run:
+Right clink on swing Example and run as java application
 
-Use the "Open in Gitpod" button above to run the (non-GUI) Java projects on the
-cloud using [Gitpod](https://gitpod.io), with no local installation necessary.
-
-You can import these projects into your favorite IDE:
-
-  * Eclipse: File > Import > Existing Maven Projectsnotebooks
-  * NetBeans: File > Open Project
-  * IDEA: File > Open Project... (select pom.xml)
-
-Or build and run from the command line:
-
-    mvn
-    cd maven-projects/simple-commands
-    mvn -Pexec -Dmain-class=GradientImage
+Install:
+- [ ] swing designer
+- [ ] Windowbuilder
 
 
 LICENSING
